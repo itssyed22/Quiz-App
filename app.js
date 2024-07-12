@@ -2,12 +2,33 @@
 let users = [];
 let currentUser = null;
 let questions = [
-    { question: "What is the capital of France?", options: ["Paris", "London", "Berlin", "Madrid"], answer: "Paris" },
-    { question: "What is 2 + 2?", options: ["3", "4", "5", "6"], answer: "4" },
-    { question: "What is the color of the sky?", options: ["Blue", "Green", "Red", "Yellow"], answer: "Blue" },
-    { question: "Which planet is known as the Red Planet?", options: ["Mars", "Earth", "Jupiter", "Venus"], answer: "Mars" },
-    { question: "What is the largest ocean on Earth?", options: ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"], answer: "Pacific Ocean" }
+    {
+        question: "Which is the largest mammal on Earth?",
+        options: ["Elephant",  "Giraffe","Blue Whale", "Hippo"],
+        answer: "Blue Whale"
+    },
+    {
+        question: "Who wrote 'Romeo and Juliet'?",
+        options: ["William Shakespeare", "Jane Austen", "Charles Dickens", "Leo Tolstoy"],
+        answer: "William Shakespeare"
+    },
+    {
+        question: "What is the capital of Spain?",
+        options: ["Barcelona", "Seville", "Valencia","Madrid"],
+        answer: "Madrid"
+    },
+    {
+        question: "Which country is famous for the Eiffel Tower?",
+        options: ["Italy", "France", "Germany", "Spain"],
+        answer: "France"
+    },
+    {
+        question: "What is the largest continent by land area?",
+        options: ["Asia", "Africa", "North America", "Europe"],
+        answer: "Asia"
+    }
 ];
+
 let currentQuestionIndex = 0;
 let score = 0;
 
